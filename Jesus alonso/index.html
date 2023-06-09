@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de artículos deportivos</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var camiseta = document.getElementById("camiseta");
+      camiseta.addEventListener("click", function() {
+        window.location.href = "camisetas.html";
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="header">
+    <a href="#" class="logo">
+      <img src="logo.png" alt="Logo de la tienda". style="background-color: transparent;">
+      Football Store
+    </a>
+    <a href="#" class="cart">
+      <img src="carrito.png" alt="Carrito de compras" style="background-color: transparent;">
+      Carrito (0)
+    </a>
+  </div>
+
+  <div class="productos-disponibles">
+    <h2>Productos disponibles</h2>
+    <h4>Explora nuestra selección de artículos deportivos</h4>
+  </div>
+
+  <div class="container">
+    <a href="camisas.html" class="producto" id="camiseta">
+      <img src="camisa de futbol.jpg" alt="Camiseta de fútbol">
+      <h3>Camisetas de fútbol</h3>
+    </a>
+    <a href="zapatos.html" class="producto">
+      <img src="zapatos.jpg" alt="Zapatillas de fútbol">
+      <h3>Zapatos de fútbol</h3>
+    </a>
+    
+  </div>
+  
+  <div class="contacto">
+    <div class="contacto-info">
+      <p>Datos de contacto:<br>
+        Teléfono: +58 424-8179795<br>
+        Correo electrónico: Football@gmail.com</p>
+    </div>
+    <div class="creador">
+      <p>Creado por: Jesus Alonso</p>
+    </div>
+  </div>
+  
+</body>
+</html>

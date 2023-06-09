@@ -1,0 +1,137 @@
+/* Estilos CSS para darle formato a la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  background-image: url("fondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  color: #fff; 
+  text-decoration: none;
+}
+
+.cart img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff; 
+  margin-bottom: 30px;
+}
+
+h4 {
+  text-align: center;
+  color: #fff; 
+  margin-bottom: 30px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.producto {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #1232eac5;
+  border-radius: 5px;
+  background-color: #2d3bf78d;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacto {
+  
+  padding: 20px;
+  text-align: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.creador {
+  
+  padding: 20px;
+  text-align: right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.productos-disponibles {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productos-disponibles h2 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.productos-disponibles p {
+  font-size: 16px;
+  color: #777;
+}
